@@ -3,7 +3,6 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>sales-management-client</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<parent>
@@ -11,5 +10,15 @@
 		<artifactId>sales-management-project</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.icodeuplay</groupId>
+			<artifactId>base-view-swing</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+	</dependencies>
 
 </project>

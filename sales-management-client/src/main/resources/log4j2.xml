@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <properties>
+        <property name="name">
+            ROBOT
+        </property>
+        <property name="pattern">
+            %d{yyyy-MM-dd HH:mm:ss.SSS} | %-5.5p | %-10.10t | %-20.20C:%-5.5L | %msg%n
+        </property>
+    </properties>
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="${pattern}"/>
+        </Console>
+    </appenders>
+    <loggers>
+    	<logger name="com.icodeuplay" level="DEBUG" />
+		<root level="debug"> <!-- We log everything -->
+            <appender-ref ref="Console"/> <!-- To console -->
+        </root>
+    </loggers>
+</configuration>
