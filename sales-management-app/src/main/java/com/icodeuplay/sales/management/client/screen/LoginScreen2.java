@@ -17,16 +17,16 @@ import com.icodeuplay.base.common.utils.MessageUtils;
 import com.icodeuplay.base.common.utils.ScreenUtils;
 import com.icodeuplay.base.view.swing.containers.ApplicationContainer;
 
-public class LoginScreen extends JPanel {
+public class LoginScreen2 extends JPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	private static Logger LOGGER = LoggerFactory.getLogger(LoginScreen.class);
+	private static Logger LOGGER = LoggerFactory.getLogger(LoginScreen2.class);
 	private JTextField textfieldLogin;
 	private JPasswordField textfieldPassword;
 	private JButton button;
 
-	public LoginScreen() {
+	public LoginScreen2() {
 		try {
 
 			setLayout(null);
