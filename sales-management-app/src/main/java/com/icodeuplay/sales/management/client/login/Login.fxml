@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.icodeuplay.sales.management.client.login.LoginController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="84.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="135.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="15.0">
+         <image>
+            <Image url="./images/logo150x150.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="62.0" layoutY="181.0" promptText="Username" AnchorPane.leftAnchor="65.0" AnchorPane.rightAnchor="65.0" AnchorPane.topAnchor="180.0" />
+      <PasswordField fx:id="password" layoutX="65.0" layoutY="214.0" promptText="Password" AnchorPane.leftAnchor="65.0" AnchorPane.rightAnchor="65.0" AnchorPane.topAnchor="210.0" />
+      <Button layoutX="119.0" layoutY="246.0" mnemonicParsing="false" onAction="#login" text="Login" AnchorPane.leftAnchor="120.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="240.0" />
+   </children>
+</AnchorPane>

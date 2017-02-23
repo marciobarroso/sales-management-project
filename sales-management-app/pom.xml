@@ -15,7 +15,7 @@
 
 		<dependency>
 			<groupId>com.icodeuplay</groupId>
-			<artifactId>base-view-swing</artifactId>
+			<artifactId>base-view-javafx</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
