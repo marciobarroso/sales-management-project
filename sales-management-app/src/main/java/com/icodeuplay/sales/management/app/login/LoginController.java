@@ -1,8 +1,8 @@
-package com.icodeuplay.sales.management.client.login;
+package com.icodeuplay.sales.management.app.login;
 
 import com.icodeuplay.base.common.utils.JavaFXUtils;
 import com.icodeuplay.base.common.utils.MessageUtils;
-import com.icodeuplay.base.view.javafx.common.ConfirmBox;
+import com.icodeuplay.sales.management.app.Main;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -25,8 +25,7 @@ public class LoginController extends Application {
 	private PasswordField password;
 
 	public void login(ActionEvent event) {
-		boolean result = ConfirmBox.show("Confirma sua ação?");
-		System.out.println(result);
+		new Main(null).show();
 	}
 
 	@Override
